@@ -130,7 +130,7 @@ def html_body_generation(title,chapter_title,sub_topics,chapter_num, short_descr
 def send_message(message_log, temp=0.4):
     print("openai started")
     # Use OpenAI's ChatCompletion API to get the chatbot's response
-    openai.api_key = ""
+    openai.api_key = os.getenv("OPENAI_API_KEY")
     openai.api_base = "https://api.openai.com/v1"
     openai.api_type = "open_ai"
     openai.api_version = None
