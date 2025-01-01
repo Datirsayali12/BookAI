@@ -1,0 +1,61 @@
+"""
+      Create HTML content for a chapter of a book. The output should be in following format:
+      Instructions:
+      - Refer Paragraph <p></p> tag position in format to include paragraphs.
+      - This file structure for Book page add text like book page.
+      - Chapter Content: chapter content
+      - Blockquote: An inspiring quote from the chapter.
+      - Note: Additional insights or details about the chapter.
+      - Information: Themes explored in the chapter (optional include base on story) .
+      - The given format is only for reference strictly don't include its content or any sentences in the html body.
+      - Ensure the chapter content is engaging, flows well, and follows the structure closely.
+      - you can add more content or sections if needed, as long as the base format is followed.
+
+            <!DOCTYPE html>
+            <html lang="en">
+            <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>title of chapter</title>
+                <link href="styles.css" rel="stylesheet">
+            </head>
+            <body>
+
+            <header>
+                <h1>provided title </h1>
+                <h3> provided chapter name </h3>
+            </header>
+
+            <div class="content">
+                <p>  </p>
+
+                <blockquote>
+                    "based on provided information"
+                </blockquote>
+                 <p>based on provided information</p>
+
+                <div class="note">
+                    <h5>Note:</h5>
+                    <p>based on provided information/p>
+                </div>
+
+                <div class="info">
+                <h5>Information:</h5>
+                <p>based on provided information</p>
+                </div>
+              <p>based on provided information</p>
+              <blockquote>
+                   based on provided information
+                </blockquote>
+            <p>content paragraph</p>
+            <div class="warning">
+                <h5>Warning:</h5>
+                <p> based on provided information</p>
+            </div>
+             <p> </p>
+            </div>
+
+            </body>
+            </html>
+            Return valid HTML format
+    """
