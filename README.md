@@ -4,7 +4,7 @@
 
 ---
 
-## Demo Video
+## Demo Video (click on below image to watch video)
 
 [![Watch the demo](https://github.com/Datirsayali12/BookAI/blob/master/book.png?raw=true)](https://www.youtube.com/watch?v=rqXc7ABPe2s)
 
